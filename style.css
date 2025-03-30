@@ -1,0 +1,323 @@
+body{
+    font-family: "Lato";
+    color: rgb(107, 107, 107);
+}
+.background{
+    background: rgb(216, 206, 206);
+    background-repeat: no-repeat;
+    background-image: url('https://imgak.mmtcdn.com/pwa_v3/pwa_commons_assets/desktop/bg6.jpg');
+    background-size: 100% 600px;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 1250px;
+    align-items: center;
+}
+.logo{
+    height: 40px;
+    width: 140px;
+}
+.options{
+    background-color:rgba(190, 190, 190, 0.099);
+    width: 900px;
+    height: 50px;
+    top: 0.1px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 25%;
+    position: absolute;
+}
+.options-type{
+    font-size: 13px;
+    color: white;
+    padding: 1px;
+    /*padding-top: 0.1px;*/
+    display: flex;
+    flex-direction: column;
+    font-weight: 650;
+}
+.options-type-blue{
+    color: white;
+    background-image: linear-gradient(93deg,#53b2fe,#065af3);
+    padding: 1px;
+    padding-top: 5px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:5px;
+    width: 220px;
+    height: 40px;
+    font-weight: 650;
+}
+.below-options-type{
+    font-weight: 300;
+    align-items: last baseline;
+}
+.options-type-more{
+    font-size: 12px;
+    color: white;
+    padding: 1px;
+    flex-direction: row;
+    font-weight: 650;
+}
+.fa-key{
+    flex-direction: row;
+}
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #2d2d2d;
+    padding: 5  px;
+    height: 10px;
+}
+.data{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.categories{
+    background-color:white ;
+    width: 950px;
+    height: 90px;
+    margin-top:40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 1px #7a7a7a;
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 2;
+}
+.categories span{
+   font-size: 15px;
+   padding: 1px;
+   padding-top: 5px;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+}
+.fa-plane-departure, .fa-hotel,.fa-house,.fa-umbrella,.fa-train,.fa-bus,.fa-taxi,.fa-money-bill,.fa-plus{
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+.tickets{
+    background-color: white;
+    width: 1300px;
+    height: 320px;
+    position: absolute;
+    top: 85px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 10px 1px #7a7a7a;
+    padding: 25px;
+}
+.ticket-type{
+    margin-top: 35px; 
+    font-weight: 800;       
+}
+.ticket-type span{
+    padding: 10px;
+}
+.ticket-type span i {
+    font-size: 20px;
+}
+.booking{
+    font-weight: 500;
+    text-align: left;
+}
+.selected-ticket-type{
+    background-color: rgb(192, 211, 227);
+    font-size: medium;
+    border-radius: 30px;
+}
+.search-panel{
+    border: 1px solid rgb(201, 191, 191);
+    display: flex;
+    margin-top: 10px;
+    border-radius: 5px;
+    
+}
+.flight{
+    margin: 20px;
+    color: rgb(14, 13, 13);
+    width: 250px;
+    border-right: 1px solid rgb(215, 213, 213);
+    font-family: "Lato";
+}
+.flight h1{
+    margin: 0;
+}
+.fa-arrow-right-arrow-left{
+    justify-content: left;
+    size: 30px;
+    display: flex;
+    color: rgb(9, 194, 241);
+    margin-left: 97%;
+    /*bottom:10%;*/
+}
+.departure{
+    margin: 20px;
+    color: rgb(14, 13, 13);
+    width: 140px;
+    border-right: 1px solid rgb(215, 213, 213);
+}
+.departure h1{
+    margin: 0;
+}
+.return{
+    margin: 20px;
+    color: rgb(14, 13, 13);
+    width: 140px;
+    border-right: 1px solid rgb(215, 213, 213);
+}
+.return span{
+    color: gray
+}
+.fa-v{
+    font-size:11px ;
+    color: rgb(9, 194, 241);
+    margin-left: 7px;
+}
+.traveller{
+    margin: 20px;
+    color: rgb(14, 13, 13);
+    width: 150px;
+    font-family:sans-serif;
+}
+.traveller h1{
+    margin: 0;
+    font-weight: 400;
+}
+.traveller span{
+    color: gray
+}
+.traveller-highlight{
+    color: rgb(195, 195, 0);
+    font-weight: 500;
+}
+.fare-search{
+    margin-top: 15px;
+    color: black;
+    width: 70%;
+    font-weight: 800;
+    display: flex;
+    
+}
+/*.Extra-Savings{
+    box-sizing:border-box;
+    color :rgb(255, 255, 255);
+    background-color:rgb(15, 168, 112);
+    display: flex;
+    font-family: Lato, sans-serif;
+    font-size :14px;
+    font-weight: 800;
+    height: 20px;;
+    line-height: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 1px #7a7a7a;
+    justify-content: left;
+}*/
+.fare-select{
+    display: flex;
+    margin: 5px;
+    color: rgb(14, 13, 13);
+    width: 100px;
+    margin-top: 12px;
+    border: 1px solid rgb(215, 213, 213);
+    border-radius: 10px;
+}
+.fare-type{
+    border: 1px solid rgb(201, 191, 191);
+    border-style: outset;
+    display: flex;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(201, 191, 191);
+    border-radius: 10px;
+    
+}
+.selected-fare-type i{
+    font-size: 14px;
+    color: rgb(85, 188, 239);
+}
+.fare-type span{
+    color: rgb(67, 66, 66);
+    padding: 6px;
+    font-weight: 650; 
+    font-size: 13.7px;
+    border-right:1px solid rgb(215, 213, 213) ;
+}
+.trending{
+    font-weight: 400;
+}
+.search-button{
+    width: 216px;
+    height: 44px;
+    /*background-color: rgb(73, 161, 244);*/
+    background-image: linear-gradient(93deg,#53b2fe,#065af3);
+    color: white;
+    font-size: 28px;
+    /*text-align: center;*/
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    position: absolute;
+    top: 94%;
+    left: 41%;
+}
+.explore{
+    width: 216px;
+    height: 55px;
+    /*background-color: rgb(73, 161, 244);*/
+    
+    color: white;
+    font-size: 15px;
+    /*text-align: center;*/
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    position: absolute;
+    top: 105%;
+    left: 41%;
+}
+.booking{
+    margin-left: 49%;
+}
+.explore-more{
+    background-color:white ;
+    width: 980px;
+    height: 50px;
+    margin-top: 390px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px 1px #7a7a7a;
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 2;
+    align-items: center;
+    margin-left: 10%;
+    border-right:1px solid rgb(215, 213, 213) ;
+}
+.explore-options{
+    font-size: 17px;
+    padding: 1px;
+    padding-top: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-weight: 400;
+}
+.explore-options-selected{
+    font-weight: 800;
+}
+img{
+    height:30px ;
+    width: 30px;
+}
+.fa-mountain,.fa-skyatlas{
+    color: rgb(54, 169, 201);
+}
