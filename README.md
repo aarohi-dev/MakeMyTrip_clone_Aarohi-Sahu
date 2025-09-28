@@ -1,2 +1,3 @@
 # MakeMyTrip_clone_Aarohi Sahu
- Regarding the task for LiftOff Recruitments
+First ever frontend project 
+created using HTML, CSS
